@@ -1,0 +1,11 @@
+2019-05-14 22:32:46.191 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ultraman.Application]; nested exception is java.io.FileNotFoundException: class path resource [i18n.properties] cannot be opened because it does not exist
+2019-05-14 22:33:31.720 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-configs' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:33:31.723 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-properties' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:33:31.725 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-references' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:33:31.727 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-services' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:33:31.729 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-shutdown' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:35:05.953 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-configs' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:35:05.956 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-properties' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:35:05.958 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-references' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:35:05.959 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-services' contains invalid characters, please migrate to a valid format.
+2019-05-14 22:35:05.961 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-shutdown' contains invalid characters, please migrate to a valid format.
