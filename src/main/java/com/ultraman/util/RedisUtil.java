@@ -125,12 +125,13 @@ public class RedisUtil {
 	 * @return 值
 	 */
 	public Object get(String key) {
-		try {
-			return key == null ? null : redisTemplate.opsForValue().get(key);
-		} finally {
-			// 释放连接
-			RedisConnectionUtils.unbindConnection(redisTemplate.getConnectionFactory());
-		}
+		// try {
+		// return key == null ? null : redisTemplate.opsForValue().get(key);
+		// } finally {
+		// // 释放连接
+		// RedisConnectionUtils.unbindConnection(redisTemplate.getConnectionFactory());
+		// }
+		return key;
 	}
 
 	/**

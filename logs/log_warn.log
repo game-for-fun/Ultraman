@@ -96,3 +96,428 @@
 2019-05-16 16:38:15.909 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-references' contains invalid characters, please migrate to a valid format.
 2019-05-16 16:38:15.910 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-services' contains invalid characters, please migrate to a valid format.
 2019-05-16 16:38:15.912 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-shutdown' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:04:17.359 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.ResourceConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.ResourceConfig will be ignored. 
+2019-05-16 17:04:17.361 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ResultCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ResultCode will be ignored. 
+2019-05-16 17:04:17.361 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.ScheduledConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.ScheduledConfig will be ignored. 
+2019-05-16 17:04:17.362 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.internal.process.Endpoint registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.internal.process.Endpoint will be ignored. 
+2019-05-16 17:04:17.363 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SpringBeanUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SpringBeanUtil will be ignored. 
+2019-05-16 17:04:17.363 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.CorsConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.CorsConfig will be ignored. 
+2019-05-16 17:04:17.363 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBody registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBody will be ignored. 
+2019-05-16 17:04:17.364 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.apache.logging.slf4j.SLF4JLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.apache.logging.slf4j.SLF4JLogger will be ignored. 
+2019-05-16 17:04:17.365 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.spring.SpringComponentProvider registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.spring.SpringComponentProvider will be ignored. 
+2019-05-16 17:04:17.365 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SessionManager registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SessionManager will be ignored. 
+2019-05-16 17:04:17.365 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.QueueName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.QueueName will be ignored. 
+2019-05-16 17:04:17.365 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MessageUtils registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MessageUtils will be ignored. 
+2019-05-16 17:04:17.365 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.SessionInfo registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.SessionInfo will be ignored. 
+2019-05-16 17:04:17.366 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.CorsFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.CorsFilter will be ignored. 
+2019-05-16 17:04:17.366 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.filter.ConfigFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.filter.ConfigFilter will be ignored. 
+2019-05-16 17:04:17.366 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.RabbitMQConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.RabbitMQConstant will be ignored. 
+2019-05-16 17:04:17.367 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.Page registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.Page will be ignored. 
+2019-05-16 17:04:17.367 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.MessageCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.MessageCode will be ignored. 
+2019-05-16 17:04:17.367 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.dao.LotteryDao registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.dao.LotteryDao will be ignored. 
+2019-05-16 17:04:17.367 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBodyEs registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBodyEs will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.I18nConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.I18nConfig will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MsgConfigReaderUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MsgConfigReaderUtil will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.JerseyConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.JerseyConfig will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.RedisUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.RedisUtil will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ServiceException registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ServiceException will be ignored. 
+2019-05-16 17:04:17.368 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.RestTemplateConfiguration registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.RestTemplateConfiguration will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.MessageSourceHolder registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.MessageSourceHolder will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.TableName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.TableName will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.inter.RequestLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.inter.RequestLogger will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.CommonConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.CommonConstant will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.Result registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.Result will be ignored. 
+2019-05-16 17:04:17.369 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.entity.Lottery registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.entity.Lottery will be ignored. 
+2019-05-16 17:04:17.370 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.RequestContextFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.RequestContextFilter will be ignored. 
+2019-05-16 17:04:17.834 [http-nio-20190-exec-3] WARN  org.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: Parameter 1 of type java.util.List<T> from public void com.ultraman.model.Page.setDatas(java.util.List<T>) is not resolvable to a concrete type.
+WARNING: Parameter 1 of type T from public void com.ultraman.exception.Result.setDataModel(T) is not resolvable to a concrete type.
+
+2019-05-16 17:07:52.899 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-configs' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:07:52.903 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-properties' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:07:52.906 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-references' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:07:52.909 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-services' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:07:52.911 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'dubbo-shutdown' contains invalid characters, please migrate to a valid format.
+2019-05-16 17:08:18.290 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SessionManager registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SessionManager will be ignored. 
+2019-05-16 17:08:18.305 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.dao.LotteryDao registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.dao.LotteryDao will be ignored. 
+2019-05-16 17:08:18.305 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.ResourceConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.ResourceConfig will be ignored. 
+2019-05-16 17:08:18.307 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.spring.SpringComponentProvider registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.spring.SpringComponentProvider will be ignored. 
+2019-05-16 17:08:18.307 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ServiceException registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ServiceException will be ignored. 
+2019-05-16 17:08:18.307 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.inter.RequestLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.inter.RequestLogger will be ignored. 
+2019-05-16 17:08:18.308 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.CorsFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.CorsFilter will be ignored. 
+2019-05-16 17:08:18.309 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBody registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBody will be ignored. 
+2019-05-16 17:08:18.309 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.MessageSourceHolder registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.MessageSourceHolder will be ignored. 
+2019-05-16 17:08:18.311 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.RedisUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.RedisUtil will be ignored. 
+2019-05-16 17:08:18.312 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.ScheduledConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.ScheduledConfig will be ignored. 
+2019-05-16 17:08:18.314 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.TableName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.TableName will be ignored. 
+2019-05-16 17:08:18.315 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBodyEs registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBodyEs will be ignored. 
+2019-05-16 17:08:18.315 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.internal.process.Endpoint registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.internal.process.Endpoint will be ignored. 
+2019-05-16 17:08:18.316 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.CommonConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.CommonConstant will be ignored. 
+2019-05-16 17:08:18.316 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.QueueName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.QueueName will be ignored. 
+2019-05-16 17:08:18.317 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MessageUtils registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MessageUtils will be ignored. 
+2019-05-16 17:08:18.317 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.Result registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.Result will be ignored. 
+2019-05-16 17:08:18.317 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.filter.ConfigFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.filter.ConfigFilter will be ignored. 
+2019-05-16 17:08:18.318 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.CorsConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.CorsConfig will be ignored. 
+2019-05-16 17:08:18.318 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.entity.Lottery registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.entity.Lottery will be ignored. 
+2019-05-16 17:08:18.319 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.apache.logging.slf4j.SLF4JLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.apache.logging.slf4j.SLF4JLogger will be ignored. 
+2019-05-16 17:08:18.319 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.I18nConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.I18nConfig will be ignored. 
+2019-05-16 17:08:18.320 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.RabbitMQConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.RabbitMQConstant will be ignored. 
+2019-05-16 17:08:18.320 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ResultCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ResultCode will be ignored. 
+2019-05-16 17:08:18.321 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.MessageCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.MessageCode will be ignored. 
+2019-05-16 17:08:18.321 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.RestTemplateConfiguration registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.RestTemplateConfiguration will be ignored. 
+2019-05-16 17:08:18.322 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MsgConfigReaderUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MsgConfigReaderUtil will be ignored. 
+2019-05-16 17:08:18.323 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.JerseyConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.JerseyConfig will be ignored. 
+2019-05-16 17:08:18.323 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.Page registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.Page will be ignored. 
+2019-05-16 17:08:18.324 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.RequestContextFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.RequestContextFilter will be ignored. 
+2019-05-16 17:08:18.324 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.SessionInfo registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.SessionInfo will be ignored. 
+2019-05-16 17:08:18.325 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SpringBeanUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SpringBeanUtil will be ignored. 
+2019-05-16 17:08:18.874 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: Parameter 1 of type T from public void com.ultraman.exception.Result.setDataModel(T) is not resolvable to a concrete type.
+WARNING: Parameter 1 of type java.util.List<T> from public void com.ultraman.model.Page.setDatas(java.util.List<T>) is not resolvable to a concrete type.
+
+2019-05-16 17:08:19.329 [http-nio-20190-exec-1] WARN  o.g.jersey.server.spring.AutowiredInjectResolver - No qualifying bean of type 'com.ultraman.util.SessionManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-05-16 17:08:19.349 [http-nio-20190-exec-1] WARN  org.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: Unknown HK2 failure detected:
+MultiException stack 1 of 3
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ultraman.util.SessionManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.glassfish.jersey.server.spring.AutowiredInjectResolver.getBeanFromSpringContext(AutowiredInjectResolver.java:104)
+	at org.glassfish.jersey.server.spring.AutowiredInjectResolver.resolve(AutowiredInjectResolver.java:96)
+	at org.glassfish.jersey.inject.hk2.InjectionResolverWrapper.resolve(InjectionResolverWrapper.java:86)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:212)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:235)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:358)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:83)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:71)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:122)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.lambda$getAllServiceHolders$0(AbstractHk2InjectionManager.java:160)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.LinkedList$LLSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.getAllServiceHolders(AbstractHk2InjectionManager.java:164)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.getAllServiceHolders(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Providers.getServiceHolders(Providers.java:337)
+	at org.glassfish.jersey.internal.inject.Providers.getAllServiceHolders(Providers.java:311)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.lambda$createLazyExceptionMappers$1(ExceptionMapperFactory.java:201)
+	at org.glassfish.jersey.internal.util.collection.Values$LazyValueImpl.get(Values.java:341)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.find(ExceptionMapperFactory.java:139)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.findMapping(ExceptionMapperFactory.java:126)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.mapException(ServerRuntime.java:547)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:427)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+MultiException stack 2 of 3
+java.lang.IllegalArgumentException: While attempting to resolve the dependencies of com.ultraman.exception.RestExceptionHandler errors were found
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:247)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:358)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:83)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:71)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:122)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.lambda$getAllServiceHolders$0(AbstractHk2InjectionManager.java:160)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.LinkedList$LLSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.getAllServiceHolders(AbstractHk2InjectionManager.java:164)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.getAllServiceHolders(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Providers.getServiceHolders(Providers.java:337)
+	at org.glassfish.jersey.internal.inject.Providers.getAllServiceHolders(Providers.java:311)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.lambda$createLazyExceptionMappers$1(ExceptionMapperFactory.java:201)
+	at org.glassfish.jersey.internal.util.collection.Values$LazyValueImpl.get(Values.java:341)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.find(ExceptionMapperFactory.java:139)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.findMapping(ExceptionMapperFactory.java:126)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.mapException(ServerRuntime.java:547)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:427)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+MultiException stack 3 of 3
+java.lang.IllegalStateException: Unable to perform operation: resolve on com.ultraman.exception.RestExceptionHandler
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:387)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:83)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:71)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:122)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.lambda$getAllServiceHolders$0(AbstractHk2InjectionManager.java:160)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.LinkedList$LLSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.getAllServiceHolders(AbstractHk2InjectionManager.java:164)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.getAllServiceHolders(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Providers.getServiceHolders(Providers.java:337)
+	at org.glassfish.jersey.internal.inject.Providers.getAllServiceHolders(Providers.java:311)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.lambda$createLazyExceptionMappers$1(ExceptionMapperFactory.java:201)
+	at org.glassfish.jersey.internal.util.collection.Values$LazyValueImpl.get(Values.java:341)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.find(ExceptionMapperFactory.java:139)
+	at org.glassfish.jersey.internal.ExceptionMapperFactory.findMapping(ExceptionMapperFactory.java:126)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.mapException(ServerRuntime.java:547)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:427)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+
+2019-05-16 17:10:00.701 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBodyEs registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBodyEs will be ignored. 
+2019-05-16 17:10:00.702 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.entity.Lottery registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.entity.Lottery will be ignored. 
+2019-05-16 17:10:00.703 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.filter.ConfigFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.filter.ConfigFilter will be ignored. 
+2019-05-16 17:10:00.704 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.ResourceConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.ResourceConfig will be ignored. 
+2019-05-16 17:10:00.705 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.spring.SpringComponentProvider registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.spring.SpringComponentProvider will be ignored. 
+2019-05-16 17:10:00.706 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MsgConfigReaderUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MsgConfigReaderUtil will be ignored. 
+2019-05-16 17:10:00.706 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ServiceException registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ServiceException will be ignored. 
+2019-05-16 17:10:00.706 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.inter.RequestLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.inter.RequestLogger will be ignored. 
+2019-05-16 17:10:00.707 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MessageUtils registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MessageUtils will be ignored. 
+2019-05-16 17:10:00.707 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.CorsFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.CorsFilter will be ignored. 
+2019-05-16 17:10:00.707 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.JerseyConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.JerseyConfig will be ignored. 
+2019-05-16 17:10:00.708 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.RabbitMQConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.RabbitMQConstant will be ignored. 
+2019-05-16 17:10:00.708 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.QueueName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.QueueName will be ignored. 
+2019-05-16 17:10:00.708 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.TableName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.TableName will be ignored. 
+2019-05-16 17:10:00.708 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.MessageCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.MessageCode will be ignored. 
+2019-05-16 17:10:00.708 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.RestTemplateConfiguration registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.RestTemplateConfiguration will be ignored. 
+2019-05-16 17:10:00.709 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SessionManager registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SessionManager will be ignored. 
+2019-05-16 17:10:00.709 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.internal.process.Endpoint registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.internal.process.Endpoint will be ignored. 
+2019-05-16 17:10:00.709 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.I18nConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.I18nConfig will be ignored. 
+2019-05-16 17:10:00.709 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.CorsConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.CorsConfig will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ResultCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ResultCode will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.dao.LotteryDao registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.dao.LotteryDao will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.MessageSourceHolder registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.MessageSourceHolder will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SpringBeanUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SpringBeanUtil will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.CommonConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.CommonConstant will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.SessionInfo registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.SessionInfo will be ignored. 
+2019-05-16 17:10:00.710 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.apache.logging.slf4j.SLF4JLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.apache.logging.slf4j.SLF4JLogger will be ignored. 
+2019-05-16 17:10:00.711 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBody registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBody will be ignored. 
+2019-05-16 17:10:00.711 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.RedisUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.RedisUtil will be ignored. 
+2019-05-16 17:10:00.711 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.Result registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.Result will be ignored. 
+2019-05-16 17:10:00.711 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.ScheduledConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.ScheduledConfig will be ignored. 
+2019-05-16 17:10:00.711 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.Page registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.Page will be ignored. 
+2019-05-16 17:10:00.712 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.RequestContextFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.RequestContextFilter will be ignored. 
+2019-05-16 17:10:00.806 [http-nio-20190-exec-10] WARN  org.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: Parameter 1 of type T from public void com.ultraman.exception.Result.setDataModel(T) is not resolvable to a concrete type.
+WARNING: Parameter 1 of type java.util.List<T> from public void com.ultraman.model.Page.setDatas(java.util.List<T>) is not resolvable to a concrete type.
+
+2019-05-16 17:11:47.402 [http-nio-20190-exec-7] WARN  com.ultraman.util.SessionManager - ### session转换错误
+2019-05-16 17:11:47.410 [http-nio-20190-exec-7] WARN  org.apache.catalina.connector.CoyoteAdapter - Exception while attempting to add an entry to the access log
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:438)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-05-16 17:11:57.779 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBodyEs registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBodyEs will be ignored. 
+2019-05-16 17:11:57.781 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.ResourceConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.ResourceConfig will be ignored. 
+2019-05-16 17:11:57.784 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.spring.SpringComponentProvider registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.spring.SpringComponentProvider will be ignored. 
+2019-05-16 17:11:57.784 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.MessageSourceHolder registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.MessageSourceHolder will be ignored. 
+2019-05-16 17:11:57.784 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.CommonConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.CommonConstant will be ignored. 
+2019-05-16 17:11:57.784 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.inter.RequestLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.inter.RequestLogger will be ignored. 
+2019-05-16 17:11:57.785 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SpringBeanUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SpringBeanUtil will be ignored. 
+2019-05-16 17:11:57.785 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.CorsFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.CorsFilter will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.Result registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.Result will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.JerseyConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.JerseyConfig will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.SessionInfo registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.SessionInfo will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ServiceException registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ServiceException will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.QueueName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.QueueName will be ignored. 
+2019-05-16 17:11:57.786 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.exception.ResultCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.exception.ResultCode will be ignored. 
+2019-05-16 17:11:57.788 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.glassfish.jersey.server.internal.process.Endpoint registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.glassfish.jersey.server.internal.process.Endpoint will be ignored. 
+2019-05-16 17:11:57.789 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.RestTemplateConfiguration registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.RestTemplateConfiguration will be ignored. 
+2019-05-16 17:11:57.789 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.SessionManager registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.SessionManager will be ignored. 
+2019-05-16 17:11:57.789 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MsgConfigReaderUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MsgConfigReaderUtil will be ignored. 
+2019-05-16 17:11:57.789 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.MesBody registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.MesBody will be ignored. 
+2019-05-16 17:11:57.789 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.i18n.I18nConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.i18n.I18nConfig will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.model.Page registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.model.Page will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.MessageUtils registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.MessageUtils will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.ScheduledConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.ScheduledConfig will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.MessageCode registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.MessageCode will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.filter.ConfigFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.filter.ConfigFilter will be ignored. 
+2019-05-16 17:11:57.790 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.util.RedisUtil registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.util.RedisUtil will be ignored. 
+2019-05-16 17:11:57.791 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.TableName registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.TableName will be ignored. 
+2019-05-16 17:11:57.791 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.apache.logging.slf4j.SLF4JLogger registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.apache.logging.slf4j.SLF4JLogger will be ignored. 
+2019-05-16 17:11:57.791 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.dao.LotteryDao registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.dao.LotteryDao will be ignored. 
+2019-05-16 17:11:57.791 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.entity.Lottery registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.entity.Lottery will be ignored. 
+2019-05-16 17:11:57.792 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.conf.CorsConfig registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.conf.CorsConfig will be ignored. 
+2019-05-16 17:11:57.792 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider com.ultraman.constant.RabbitMQConstant registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider com.ultraman.constant.RabbitMQConstant will be ignored. 
+2019-05-16 17:11:57.794 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.inject.Providers - A provider org.springframework.web.filter.RequestContextFilter registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.filter.RequestContextFilter will be ignored. 
+2019-05-16 17:11:57.940 [http-nio-20190-exec-6] WARN  org.glassfish.jersey.internal.Errors - The following warnings have been detected: WARNING: Parameter 1 of type T from public void com.ultraman.exception.Result.setDataModel(T) is not resolvable to a concrete type.
+WARNING: Parameter 1 of type java.util.List<T> from public void com.ultraman.model.Page.setDatas(java.util.List<T>) is not resolvable to a concrete type.
+
+2019-05-16 17:11:57.959 [http-nio-20190-exec-6] WARN  com.ultraman.util.SessionManager - ### token value is : 111###
+2019-05-16 17:11:57.959 [http-nio-20190-exec-6] WARN  com.ultraman.util.SessionManager - ### session转换错误
+2019-05-16 17:12:36.745 [http-nio-20190-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-16 17:13:34.664 [http-nio-20190-exec-2] WARN  com.ultraman.util.SessionManager - ### token value is : 111###
+2019-05-16 17:13:34.665 [http-nio-20190-exec-2] WARN  com.ultraman.util.SessionManager - ### session转换错误
+2019-05-16 17:14:03.268 [http-nio-20190-exec-5] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-16 17:14:31.023 [http-nio-20190-exec-5] WARN  com.ultraman.util.SessionManager - ### token value is : 111###
+2019-05-16 17:14:31.026 [http-nio-20190-exec-5] WARN  com.ultraman.util.SessionManager - ### session转换错误
+2019-05-16 17:36:44.566 [http-nio-20190-exec-9] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-16 17:45:40.309 [http-nio-20190-exec-9] WARN  com.ultraman.util.SessionManager - ### token value is : 111###
+2019-05-16 17:45:40.310 [http-nio-20190-exec-9] WARN  com.ultraman.util.SessionManager - ### session转换错误
+2019-05-16 17:49:26.687 [http-nio-20190-exec-7] WARN  com.ultraman.util.SessionManager - ### token value is : Session:CF8392644B7DFB16768246D8D9017D25###
+2019-05-16 17:49:26.689 [http-nio-20190-exec-7] WARN  com.ultraman.util.SessionManager - ### session转换错误

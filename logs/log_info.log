@@ -967,3 +967,191 @@ Unconditional classes:
 2019-05-16 16:40:23.891 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20190 (http) with context path ''
 2019-05-16 16:40:23.895 [restartedMain] INFO  com.ultraman.Application - Started Application in 5.57 seconds (JVM running for 136.012)
 2019-05-16 16:40:23.912 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-16 17:07:28.793 [Thread-20] INFO  c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2019-05-16 17:07:50.079 [restartedMain] INFO  c.a.b.d.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+2019-05-16 17:07:50.089 [restartedMain] INFO  c.a.b.d.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {}
+2019-05-16 17:07:50.354 [restartedMain] INFO  com.ultraman.Application - Starting Application on DESKTOP-FUE9D9T with PID 1064 (started by cr in C:\z张威\utSpace\Ultraman)
+2019-05-16 17:07:50.381 [restartedMain] INFO  com.ultraman.Application - The following profiles are active: test,mail
+2019-05-16 17:07:50.708 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 17:07:53.596 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-16 17:07:53.605 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 17:07:53.790 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 151ms. Found 0 repository interfaces.
+2019-05-16 17:07:54.716 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$6a5896d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:07:54.777 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$21c2af8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:07:55.295 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b56f161] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:07:57.150 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20190 (http)
+2019-05-16 17:07:57.181 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:07:57.201 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:07:57.207 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:07:57.235 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;C:\Users\cr\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\cr\AppData\Roaming\npm;C:\Users\cr\Desktop;;.]
+2019-05-16 17:07:57.686 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:07:57.687 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6978 ms
+2019-05-16 17:08:10.276 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-16 17:08:10.700 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20191 (http)
+2019-05-16 17:08:10.704 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:08:10.705 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:08:10.706 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:08:10.859 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:08:10.860 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 410 ms
+2019-05-16 17:08:10.899 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path ''
+2019-05-16 17:08:11.186 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:08:11.276 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20191 (http) with context path ''
+2019-05-16 17:08:11.315 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:08:11.327 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20190 (http) with context path ''
+2019-05-16 17:08:11.334 [restartedMain] INFO  com.ultraman.Application - Started Application in 22.228 seconds (JVM running for 23.96)
+2019-05-16 17:08:31.815 [Thread-8] INFO  c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2019-05-16 17:08:32.775 [restartedMain] INFO  c.a.b.d.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+2019-05-16 17:08:32.776 [restartedMain] INFO  c.a.b.d.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {}
+2019-05-16 17:08:32.807 [restartedMain] INFO  com.ultraman.Application - Starting Application on DESKTOP-FUE9D9T with PID 1064 (started by cr in C:\z张威\utSpace\Ultraman)
+2019-05-16 17:08:32.808 [restartedMain] INFO  com.ultraman.Application - The following profiles are active: test,mail
+2019-05-16 17:08:34.714 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-16 17:08:34.715 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 17:08:34.909 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 194ms. Found 0 repository interfaces.
+2019-05-16 17:08:35.191 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$6a5896d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:08:35.194 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$21c2af8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:08:35.235 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b56f161] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:08:35.374 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20190 (http)
+2019-05-16 17:08:35.377 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:08:35.378 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:08:35.379 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:08:35.540 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:08:35.543 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2720 ms
+2019-05-16 17:08:41.660 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-16 17:08:41.932 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20191 (http)
+2019-05-16 17:08:41.935 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:08:41.937 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:08:41.938 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:08:42.058 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:08:42.058 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 358 ms
+2019-05-16 17:08:42.064 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path ''
+2019-05-16 17:08:42.077 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:08:42.085 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20191 (http) with context path ''
+2019-05-16 17:08:42.103 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:08:42.110 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20190 (http) with context path ''
+2019-05-16 17:08:42.111 [restartedMain] INFO  com.ultraman.Application - Started Application in 9.552 seconds (JVM running for 54.736)
+2019-05-16 17:08:42.122 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-16 17:11:36.280 [Thread-13] INFO  c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2019-05-16 17:11:47.218 [restartedMain] INFO  c.a.b.d.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+2019-05-16 17:11:47.219 [restartedMain] INFO  c.a.b.d.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {}
+2019-05-16 17:11:47.253 [http-nio-20190-exec-7] INFO  org.apache.catalina.loader.WebappClassLoaderBase - Illegal access: this web application instance has been stopped already. Could not load [org.springframework.security.web.savedrequest.DefaultSavedRequest]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.springframework.security.web.savedrequest.DefaultSavedRequest]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1363)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1351)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:820)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.findClassIgnoringNotFound(TomcatEmbeddedWebappClassLoader.java:121)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.doLoadClass(TomcatEmbeddedWebappClassLoader.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.loadClass(TomcatEmbeddedWebappClassLoader.java:68)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1173)
+	at com.alibaba.fastjson.util.TypeUtils.loadClass(TypeUtils.java:1240)
+	at com.alibaba.fastjson.util.TypeUtils.loadClass(TypeUtils.java:1206)
+	at com.alibaba.fastjson.util.TypeUtils.loadClass(TypeUtils.java:1184)
+	at com.alibaba.fastjson.util.TypeUtils.addBaseClassMappings(TypeUtils.java:1170)
+	at com.alibaba.fastjson.util.TypeUtils.<clinit>(TypeUtils.java:123)
+	at com.alibaba.fastjson.parser.ParserConfig.<init>(ParserConfig.java:124)
+	at com.alibaba.fastjson.parser.ParserConfig.<init>(ParserConfig.java:184)
+	at com.alibaba.fastjson.parser.ParserConfig.<init>(ParserConfig.java:180)
+	at com.alibaba.fastjson.parser.ParserConfig.<clinit>(ParserConfig.java:100)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:162)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:131)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:223)
+	at com.ultraman.util.SessionManager.getObject(SessionManager.java:75)
+	at com.ultraman.exception.RestExceptionHandler.toResponse(RestExceptionHandler.java:48)
+	at com.ultraman.exception.RestExceptionHandler.toResponse(RestExceptionHandler.java:1)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.mapException(ServerRuntime.java:552)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:427)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-05-16 17:11:47.281 [restartedMain] INFO  com.ultraman.Application - Starting Application on DESKTOP-FUE9D9T with PID 1064 (started by cr in C:\z张威\utSpace\Ultraman)
+2019-05-16 17:11:47.283 [restartedMain] INFO  com.ultraman.Application - The following profiles are active: test,mail
+2019-05-16 17:11:49.351 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-16 17:11:49.352 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 17:11:49.480 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127ms. Found 0 repository interfaces.
+2019-05-16 17:11:49.788 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$6a5896d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:11:49.790 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$21c2af8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:11:49.835 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b56f161] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 17:11:50.010 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20190 (http)
+2019-05-16 17:11:50.020 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:11:50.033 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:11:50.033 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:11:50.212 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:11:50.213 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2910 ms
+2019-05-16 17:11:52.676 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-16 17:11:53.040 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 20191 (http)
+2019-05-16 17:11:53.042 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:11:53.044 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-16 17:11:53.045 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-05-16 17:11:53.176 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-16 17:11:53.176 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 417 ms
+2019-05-16 17:11:53.182 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path ''
+2019-05-16 17:11:53.197 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20191"]
+2019-05-16 17:11:53.216 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20191 (http) with context path ''
+2019-05-16 17:11:53.231 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-20190"]
+2019-05-16 17:11:53.240 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 20190 (http) with context path ''
+2019-05-16 17:11:53.241 [restartedMain] INFO  com.ultraman.Application - Started Application in 6.256 seconds (JVM running for 245.865)
+2019-05-16 17:11:53.246 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-16 17:12:29.719 [http-nio-20190-exec-2] INFO  com.ultraman.inter.RequestLogger - ▼▼▼ execute begin >> class：com.ultraman.service.LotteryService method：getAll
+2019-05-16 17:12:36.727 [http-nio-20190-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-16 17:13:57.270 [http-nio-20190-exec-5] INFO  com.ultraman.inter.RequestLogger - ▼▼▼ execute begin >> class：com.ultraman.service.LotteryService method：getAll
+2019-05-16 17:14:03.264 [http-nio-20190-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-16 17:36:41.398 [http-nio-20190-exec-9] INFO  com.ultraman.inter.RequestLogger - ▼▼▼ execute begin >> class：com.ultraman.service.LotteryService method：getAll
+2019-05-16 17:36:44.561 [http-nio-20190-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...

@@ -18,8 +18,8 @@ import com.ultraman.model.SessionInfo;
 
 /**
  * 会话管理类
- * 
- * @author cheng.lei
+ * @author cr
+ *
  */
 @Component
 public class SessionManager {
