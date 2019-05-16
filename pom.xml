@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.ultraman</groupId>
-	<artifactId>de-bootstrap</artifactId>
+	<artifactId>com-ultraman</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>ultraman</name>

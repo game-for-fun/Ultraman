@@ -6,6 +6,7 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -21,16 +22,15 @@ import com.ultraman.filter.ConfigFilter;
  * @author
  *
  */
-@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
+@EnableRabbit
+@EnableScheduling
+@ServletComponentScan
+@EnableAutoConfiguration
 @EnableConfigurationProperties
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 @ComponentScan(basePackages = { "com.ultraman" }, excludeFilters = @Filter(type = FilterType.REGEX, pattern = {
 		"com.ultraman.*.config.*" }), includeFilters = @Filter(type = FilterType.CUSTOM, classes = {
 				ConfigFilter.class }))
-//@EnableJms
-//@EnableDubbo(scanBasePackages= {"com.de"})
-@EnableScheduling
-@ServletComponentScan
-@EnableRabbit
 public class Application {
 
 	@PostConstruct
