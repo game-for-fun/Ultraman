@@ -61,26 +61,27 @@ public class SessionManager {
 	public SessionInfo getObject(String token) throws Exception {
 		SessionInfo session = null;
 		// 根据token获取redis中会话信息
-		if (StringUtils.isBlank(token)) {
-			throw new ServiceException("前端传递的token为空");
-		} else {
-			String sessionJsonStr = (String) redis.get(token);
-			LOGGER.warn("### token value is : " + sessionJsonStr + "###");
-			if (null == sessionJsonStr) {
-				LOGGER.warn("### token is : " + token + "###");
-				throw new ServiceException(MessageCode.USER_LOGIN_INFO_IS_EXPIRE);
-			} else {
-				JSONObject json = null;
-				try {
-					json = JSON.parseObject(sessionJsonStr);
-				} catch (Exception e) {
-					LOGGER.warn("### session转换错误");
-				}
-				if (null != json) {
-					session = JSONObject.toJavaObject(json, SessionInfo.class);
-				}
-			}
-		}
+		// TODO
+//		if (StringUtils.isBlank(token)) {
+//			throw new ServiceException("前端传递的token为空");
+//		} else {
+//			String sessionJsonStr = (String) redis.get(token);
+//			LOGGER.warn("### token value is : " + sessionJsonStr + "###");
+//			if (null == sessionJsonStr) {
+//				LOGGER.warn("### token is : " + token + "###");
+//				throw new ServiceException(MessageCode.USER_LOGIN_INFO_IS_EXPIRE);
+//			} else {
+//				JSONObject json = null;
+//				try {
+//					json = JSON.parseObject(sessionJsonStr);
+//				} catch (Exception e) {
+//					LOGGER.warn("### session转换错误");
+//				}
+//				if (null != json) {
+//					session = JSONObject.toJavaObject(json, SessionInfo.class);
+//				}
+//			}
+//		}
 		return session;
 	}
 
