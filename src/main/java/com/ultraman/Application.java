@@ -9,8 +9,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.FilterType;
@@ -31,15 +33,20 @@ import com.ultraman.filter.ConfigFilter;
 @ComponentScan(basePackages = { "com.ultraman" }, excludeFilters = @Filter(type = FilterType.REGEX, pattern = {
 		"com.ultraman.*.config.*" }), includeFilters = @Filter(type = FilterType.CUSTOM, classes = {
 				ConfigFilter.class }))
-public class Application {
+public class Application extends SpringBootServletInitializer {
 
 	@PostConstruct
 	public void initTimeZone() {
 		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Shanghai"));
 	}
 
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(Application.class);
+	}
+
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
